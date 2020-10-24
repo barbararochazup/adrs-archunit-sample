@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+
+  postgres:
+    image: postgres:9.6-alpine
+    ports:
+      - 5435:5435
+    environment:
+      - POSTGRES_DB=contactdb
+      - POSTGRES_USER=contactdb
+      - POSTGRES_PASSWORD=contactdb
+      - MAX_CONNECTIONS=300
