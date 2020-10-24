@@ -2,8 +2,6 @@ package br.com.rossalli.noroeste.java.sample.contact.domain.entity;
 
 import br.com.rossalli.noroeste.java.sample.contact.domain.constant.ContactTypeEnum;
 import lombok.*;
-
-
 import javax.persistence.*;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.NotBlank;
