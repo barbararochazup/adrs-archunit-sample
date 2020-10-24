@@ -1,0 +1,1 @@
+# adrs-archunit-sample
