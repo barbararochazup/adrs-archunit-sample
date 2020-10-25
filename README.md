@@ -10,10 +10,11 @@
 
 ## How To Run
 
+In _/contact_ runs:
+
 ```sh
 $ docker-compose up
 ```
-
 ```sh
 $ mvn clean install
 ```
