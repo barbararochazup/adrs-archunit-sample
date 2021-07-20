@@ -29,4 +29,4 @@ jobs:
       - name: Check License Header
         uses: apache/skywalking-eyes@main      # always prefer to use a revision instead of `main`.
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # needed only when you want License-Eye to comment on the pull request.
+          GITHUB_TOKEN: ${{ secrets.LICENSE_CHECKER_TOKEN }}  # needed only when you want License-Eye to comment on the pull request.
